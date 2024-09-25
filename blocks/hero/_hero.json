@@ -40,6 +40,13 @@
           "value": "",
           "label": "Text",
           "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "text1",
+          "value": "",
+          "label": "Text1",
+          "valueType": "string"
         }
       ]
     }
