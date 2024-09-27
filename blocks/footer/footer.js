@@ -1,6 +1,6 @@
 import { getMetadata } from '../../scripts/aem.js';
 import { loadFragment } from '../fragment/fragment.js';
-import '../../dist/bundle.js';
+import '../../scripts/bundle.js';
 
 /**
  * Loads and decorates the footer.
