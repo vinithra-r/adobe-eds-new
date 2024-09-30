@@ -1,1 +1,4 @@
 helix-importer-ui
+scripts/bundle.js
+blocks/footer/footer.js
+scripts/wds.js
