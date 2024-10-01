@@ -1,1 +1,3 @@
-import { Modal } from 'flowbite'
+import { WdsButton } from '@wds/button';
+import { Modal } from 'flowbite';
+
