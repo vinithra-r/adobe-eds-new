@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 /* :root {
-    --wds2-colour-nissanblack: #000; /* Black */
-    --wds2-colour-nissanwhite: #fff; /* White */
+    --wds2-colour-nissanblack: #000; 
+    --wds2-colour-nissanwhite: #fff; 
     --wds2-colour-nissangrey: #B4B4B4;
     --wds2-colour-action-hover-onlight: blue;
     --wds2-colour-action-hover-ondark: #000;
