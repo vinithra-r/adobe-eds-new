@@ -1,4 +1,4 @@
-import { getMetadata, loadScript } from '../../scripts/aem.js';
+import { getMetadata, loadScript, loadCSS } from '../../scripts/aem.js';
 import { loadFragment } from '../fragment/fragment.js';
 import '../../dist/bundle.js';
 
@@ -8,6 +8,7 @@ import '../../dist/bundle.js';
  */
 export default async function decorate(block) {
   loadScript('https://libs-europe.nissan-cdn.net/etc/designs/nissan-pace-vlp-plus/clientlibs-24.09.30.NISSAN-5/libs/analyticsManager.min.js');
+  loadCSS('https://libs-europe.nissan-cdn.net/etc/designs/nissan_next_v4/24.09.30.NISSAN-16/common-assets/css/fonts/fonts-latin-basic.min.css');
   // Load footer as fragment
   const footerMeta = getMetadata('footer');
   const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : '/footer';
