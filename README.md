@@ -2,8 +2,9 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- https://main--adobe-eds-new--vinithra-r.hlx.page/
+- Preview: https://main--adobe-eds-new--vinithra-r.aem.page/
+- Live: https://main--adobe-eds-new--vinithra-r.aem.live/
 
 ## Installation
 
