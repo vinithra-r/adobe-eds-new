@@ -7,6 +7,7 @@ import '../../dist/bundle.js';
  * @param {Element} block The footer block element.
  */
 export default async function decorate(block) {
+  loadScript('https://libs-europe.nissan-cdn.net/etc/designs/nissan-pace-vlp-plus/clientlibs-24.09.30.NISSAN-5/libs/analyticsManager.min.js');
   // Load footer as fragment
   const footerMeta = getMetadata('footer');
   const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : '/footer';
