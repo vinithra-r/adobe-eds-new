@@ -6,7 +6,7 @@ export default function decorate(block) {
 
   const [heading, description] = block.querySelectorAll('p');
   const wdsAccordian = document.createElement('div');
-  wdsAccordian.innerHTML = `<div class="accordion container">
+  wdsAccordian.innerHTML = `<div class="accordion">
     <div class="row">
       <div class="col-sm-2 col-md-12 col-l-12 col-xl-12">
         <wds-accordion heading="${heading.innerHTML}" headingLevel=6>
