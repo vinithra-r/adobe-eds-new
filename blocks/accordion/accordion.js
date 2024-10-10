@@ -15,5 +15,5 @@ export default function decorate(block) {
       </div>
     </div>
   </div>`;
-  block.append(wdsAccordian);
+  block.replaceWith(wdsAccordian);
 }
