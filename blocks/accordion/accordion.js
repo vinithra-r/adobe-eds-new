@@ -1,7 +1,6 @@
-import { loadCSS, loadScript } from '../../scripts/aem.js';
+import { loadScript } from '../../scripts/aem.js';
 
 export default function decorate(block) {
-  loadCSS('dist/@wds/css-shared/dist/globalStyles.css');
   loadScript('dist/bundle.js');
   loadScript('https://libs-europe.nissan-cdn.net/etc/designs/nissan-pace-vlp-plus/clientlibs-24.09.30.NISSAN-5/libs/analyticsManager.min.js');
 
