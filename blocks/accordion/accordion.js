@@ -1,7 +1,8 @@
-import { loadScript } from '../../scripts/aem.js';
+import { loadCSS, loadScript } from '../../scripts/aem.js';
 
 export default function decorate(block) {
   loadScript('dist/bundle.js');
+  loadCSS('dist/@wds/css-shared/dist/globalStyles.css');
   loadScript('https://libs-europe.nissan-cdn.net/etc/designs/nissan-pace-vlp-plus/clientlibs-24.09.30.NISSAN-5/libs/analyticsManager.min.js');
 
   const [heading, description] = block.querySelectorAll('p');
