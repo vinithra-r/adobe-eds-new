@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/adobe/aem-boilerplate#readme",
   "devDependencies": {
-    "@wds/accordion": "^1.0.3",
     "@babel/eslint-parser": "7.25.1",
     "eslint": "8.57.0",
     "eslint-config-airbnb-base": "15.0.0",
