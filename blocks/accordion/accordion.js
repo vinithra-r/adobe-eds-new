@@ -15,5 +15,6 @@ export default function decorate(block) {
       </div>
     </div>
   </div>`;
-  block.innerHTML = wdsAccordian;
+  block.innerHTML = '';
+  block.appendChild(wdsAccordian);
 }
