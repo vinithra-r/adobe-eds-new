@@ -5,7 +5,7 @@ export default function decorate(block) {
   loadScript('https://libs-europe.nissan-cdn.net/etc/designs/nissan-pace-vlp-plus/clientlibs-24.09.30.NISSAN-5/libs/analyticsManager.min.js');
   const isPublishMode = document.body.classList.contains('appear');
   // eslint-disable-next-line no-console
-  console.log(isPublishMode);
+  console.log(document);
   if (isPublishMode) {
     const [heading, description] = block.querySelectorAll('p');
     const wdsAccordian = document.createElement('div');
