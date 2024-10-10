@@ -1,5 +1,4 @@
 import { loadScript } from '../../scripts/aem.js';
-import '../../dist/bundle.js';
 
 export default function decorate(block) {
   // loadScript('dist/bundle.js');
