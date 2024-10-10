@@ -3,7 +3,7 @@ import { loadScript } from '../../scripts/aem.js';
 export default function decorate(block) {
   loadScript('dist/bundle.js');
   loadScript('https://libs-europe.nissan-cdn.net/etc/designs/nissan-pace-vlp-plus/clientlibs-24.09.30.NISSAN-5/libs/analyticsManager.min.js');
-  const isPublishMode = document.querySelector('main');
+  const isPublishMode = document.body.classList.contains('appear');
   if (isPublishMode) {
     const [heading, description] = block.querySelectorAll('p');
     const wdsAccordian = document.createElement('div');
