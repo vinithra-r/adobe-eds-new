@@ -7,7 +7,7 @@ export default function decorate(block) {
   console.log(heading.innerHTML);
   if (heading.innerHTML) {
     const wdsActionStrip = document.createElement('div');
-    wdsActionStrip.innerHTML = `<div class="actionStrip">
+    wdsActionStrip.innerHTML = `<div class="actionstrip">
       <div class="row">
         <div class="col-sm-2 col-md-12 col-l-12 col-xl-12">
           <wds-action-strip heading="${heading.innerHTML}" background="grey">
@@ -17,7 +17,20 @@ export default function decorate(block) {
           </wds-action-strip>
         </div>
       </div>
-    </div>`;
+    </div><div class="actionstrip_icon">
+    <div class="row">
+      <div class="col-sm-2 col-md-12 col-l-12 col-xl-12">
+        <wds-action-strip heading="Title lorem ipsum" background="dark">
+          <h2 slot="heading">Continue with your Ariya</h2>
+          <wds-action-strip-icon slot="threeIcons" variant="three-icons" iconname="icon-assisted_steering" href="http://www.google.com">Book a test drive
+          </wds-action-strip-icon>
+          <wds-action-strip-icon slot="threeIcons" variant="three-icons" iconname="icon-download-brochure" href="http://www.google.com">Download brochure</wds-action-strip-icon>
+          <wds-action-strip-icon slot="threeIcons" variant="three-icons" iconname="icon-trade-in-quote" href="http://www.google.com">
+            Get a quote</wds-action-strip-icon>
+        </wds-action-strip>
+      </div>
+    </div>
+  </div>`;
     block.innerHTML = '';
     block.appendChild(wdsActionStrip);
   }
