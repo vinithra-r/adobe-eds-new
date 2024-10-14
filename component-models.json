@@ -131,7 +131,7 @@
     ]
   },
   {
-    "id": "actionStrip",
+    "id": "actionstrip",
     "fields": [
       {
         "component": "text",
