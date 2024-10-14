@@ -141,6 +141,21 @@
         "value": ""
       },
       {
+        "component": "select",
+        "name": "type",
+        "label": "Type",
+        "options": [
+          {
+            "name": "button",
+            "value": "Button"
+          },
+          {
+            "name": "icon",
+            "value": "Icon"
+          }
+        ]
+      },
+      {
         "component": "text",
         "valueType": "string",
         "name": "primary_btn_label",
