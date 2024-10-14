@@ -2,7 +2,8 @@ import { loadScript } from '../../scripts/aem.js';
 
 export default function decorate(block) {
   loadScript('https://libs-europe.nissan-cdn.net/etc/designs/nissan-pace-vlp-plus/clientlibs-24.09.30.NISSAN-5/libs/analyticsManager.min.js');
-
+  // eslint-disable-next-line no-console
+  console.log('test');
   const [heading, primaryBtn, secondaryBtn] = block.querySelectorAll('p');
   const wdsActionStrip = document.createElement('div');
   wdsActionStrip.innerHTML = `<div class="actionStrip">
