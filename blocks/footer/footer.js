@@ -81,5 +81,5 @@ export default async function decorate(block) {
     </div>`;
   block.appendChild(footerWDS);
 
-  block.append(footer);
+  // block.append(footer);
 }
