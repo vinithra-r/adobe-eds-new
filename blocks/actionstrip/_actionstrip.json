@@ -33,12 +33,12 @@
           "label": "Type",
           "options": [
             {
-              "name": "button",
-              "value": "Button"
+              "name": "Button",
+              "value": "button"
             },
             {
-              "name": "icon",
-              "value": "Icon"
+              "name": "Icon",
+              "value": "icon"
             }
           ]
         },
