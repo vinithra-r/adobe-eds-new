@@ -28,21 +28,6 @@
           "value": ""
         },
         {
-          "component": "select",
-          "name": "type",
-          "label": "Type",
-          "options": [
-            {
-              "name": "Button",
-              "value": "button"
-            },
-            {
-              "name": "Icon",
-              "value": "icon"
-            }
-          ]
-        },
-        {
           "component": "text",
           "valueType": "string",
           "name": "primary_btn_label",
