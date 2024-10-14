@@ -45,7 +45,8 @@
         "cards",
         "columns",
         "fragment",
-        "accordion"
+        "accordion",
+        "actionStrip"
       ]
     }
   ]
