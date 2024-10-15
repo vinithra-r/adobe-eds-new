@@ -242,13 +242,6 @@
         "required": true
       },
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "alt_text",
-        "label": "Alternate Text",
-        "value": ""
-      },
-      {
         "component": "select",
         "label": "Select Type",
         "name": "type",
@@ -257,11 +250,11 @@
         "options": [
           {
             "name": "Primary",
-            "value": "Primary"
+            "value": "primary"
           },
           {
             "name": "Secondary",
-            "value": "Secondary"
+            "value": "secondary"
           }
         ]
       }
