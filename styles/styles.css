@@ -75,7 +75,9 @@ body {
   margin: 0;
   background-color: var(--background-color);
   color: var(--text-color);
-  font-family: var(--body-font-family);
+
+  /* font-family: var(--body-font-family); */
+  font-family: var(--wds2-type-body-regular-m-fontFamily);
   font-size: var(--body-font-size-m);
   line-height: 1.6;
 }
@@ -234,9 +236,10 @@ main > .section {
 }
 
 main > .section > div {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: auto;
   padding: 0 24px;
+  box-sizing: border-box;
 }
 
 main > .section:first-of-type {
@@ -245,7 +248,7 @@ main > .section:first-of-type {
 
 @media (width >= 900px) {
   main > .section > div {
-    padding: 0 32px;
+    padding: 0 80px;
   }
 }
 
