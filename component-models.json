@@ -153,6 +153,26 @@
         "name": "secondary_button_label",
         "label": "Secondary Button label",
         "value": ""
+      },
+      {
+        "component": "select",
+        "label": "Theme",
+        "name": "theme",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Light",
+            "value": "light"
+          },
+          {
+            "name": "Dark",
+            "value": "dark"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          }
+        ]
       }
     ]
   },
