@@ -229,5 +229,42 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "wds_button",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "label",
+        "label": "Label",
+        "value": "",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "alt_text",
+        "label": "Alternate Text",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "label": "Select Type",
+        "name": "type",
+        "valueType": "string",
+        "required": true,
+        "options": [
+          {
+            "name": "Primary",
+            "value": "Primary"
+          },
+          {
+            "name": "Secondary",
+            "value": "Secondary"
+          }
+        ]
+      }
+    ]
   }
 ]

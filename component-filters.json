@@ -17,7 +17,8 @@
       "columns",
       "fragment",
       "accordion",
-      "actionstrip"
+      "actionstrip",
+      "wds_button"
     ]
   },
   {
