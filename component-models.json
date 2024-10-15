@@ -231,7 +231,7 @@
     ]
   },
   {
-    "id": "wds_button",
+    "id": "wds-button",
     "fields": [
       {
         "component": "text",

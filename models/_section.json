@@ -47,7 +47,7 @@
         "fragment",
         "accordion",
         "actionstrip",
-        "wds_button"
+        "wds-button"
       ]
     }
   ]
