@@ -7,5 +7,6 @@ export default function decorate(block) {
   button.setAttribute('variant', btnType.innerHTML);
   button.setAttribute('iconSize', 'small');
   button.textContent = btnLabel.innerHTML;
-  block.replaceWith(button);
+  block.innerHTML = '';
+  block.appendChild(button);
 }
