@@ -254,6 +254,11 @@
     "id": "heroModel",
     "fields": [
       {
+        "component": "tab",
+        "label": "Content",
+        "name": "tab1"
+      },
+      {
         "component": "text",
         "valueType": "string",
         "name": "title",
@@ -261,7 +266,7 @@
         "value": ""
       },
       {
-        "component": "text",
+        "component": "richtext",
         "valueType": "string",
         "name": "description",
         "label": "Description",
@@ -273,6 +278,11 @@
         "name": "cta",
         "label": "CTA Label",
         "value": ""
+      },
+      {
+        "component": "tab",
+        "label": "Feature",
+        "name": "tab2"
       },
       {
         "component": "text",
@@ -296,6 +306,11 @@
         "value": ""
       },
       {
+        "component": "tab",
+        "label": "Image",
+        "name": "tab3"
+      },
+      {
         "component": "reference",
         "valueType": "string",
         "name": "image",
@@ -306,15 +321,8 @@
         "component": "text",
         "valueType": "string",
         "name": "imageAlt",
-        "label": "Alt",
+        "label": "Image Alt Label",
         "value": ""
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
       }
     ]
   },
