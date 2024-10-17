@@ -22,6 +22,12 @@
     ]
   },
   {
+    "id": "section1",
+    "components": [
+      "wds-button"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
