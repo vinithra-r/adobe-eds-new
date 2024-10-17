@@ -6,9 +6,20 @@
     ]
   },
   {
-    "id": "section1",
+    "id": "section",
     "components": [
-      "wds-button"
+      "text",
+      "image",
+      "button",
+      "title",
+      "hero",
+      "cards",
+      "columns",
+      "fragment",
+      "accordion",
+      "actionstrip",
+      "wds-button",
+      "hero-model"
     ]
   },
   {
