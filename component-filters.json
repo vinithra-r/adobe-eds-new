@@ -26,7 +26,7 @@
   {
     "id": "section1",
     "components": [
-      "card"
+      "hero-model"
     ]
   },
   {
