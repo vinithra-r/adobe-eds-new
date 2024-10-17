@@ -9,13 +9,23 @@
   {
     "id": "section-global",
     "components": [
-      "wds-button"
+      "hero"
     ]
   },
   {
     "id": "section",
     "components": [
-      "text"
+      "text",
+      "image",
+      "button",
+      "title",
+      "cards",
+      "columns",
+      "fragment",
+      "accordion",
+      "actionstrip",
+      "wds-button",
+      "hero-model"
     ]
   },
   {
