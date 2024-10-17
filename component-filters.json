@@ -24,6 +24,12 @@
     ]
   },
   {
+    "id": "section1",
+    "components": [
+      "hero-model"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
