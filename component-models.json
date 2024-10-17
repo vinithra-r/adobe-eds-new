@@ -263,14 +263,21 @@
         "valueType": "string",
         "name": "title",
         "label": "Title",
-        "value": ""
+        "value": "",
+        "required": true
       },
       {
         "component": "richtext",
         "valueType": "string",
         "name": "description",
         "label": "Description",
-        "value": ""
+        "value": "",
+        "required": true
+      },
+      {
+        "component": "tab",
+        "label": "CTA",
+        "name": "tab2"
       },
       {
         "component": "text",
@@ -280,9 +287,36 @@
         "value": ""
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "url",
+        "label": "Url",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "label": "Select Type",
+        "name": "type",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Primary",
+            "value": "primary"
+          },
+          {
+            "name": "Secondary",
+            "value": "secondary"
+          },
+          {
+            "name": "Tertiary",
+            "value": "tertiary"
+          }
+        ]
+      },
+      {
         "component": "tab",
         "label": "Feature",
-        "name": "tab2"
+        "name": "tab3"
       },
       {
         "component": "text",
@@ -308,7 +342,7 @@
       {
         "component": "tab",
         "label": "Image",
-        "name": "tab3"
+        "name": "tab4"
       },
       {
         "component": "reference",

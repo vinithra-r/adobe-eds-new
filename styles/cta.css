@@ -1,0 +1,352 @@
+
+.cta {
+    font-family: var(--wds2-type-action-button-m-fontFamily);
+    font-size: var(--wds2-type-action-button-m-fontSize);
+    font-weight: var(--wds2-type-action-button-m-fontWeight);
+    letter-spacing: var(--wds2-type-action-button-m-letterSpacing);
+    line-height: var(--wds2-type-action-button-m-lineHeight);
+    width: 100%;
+    word-break: break-word;
+
+    /* Prevent blue highlight on touch of button.
+     * This is a legacy browser feature that came about to help users know what they were touching on small screens.
+     * But since we have responsively designed our components this can be removed.
+     * The blue highlight occurs in some browsers on touch and when 'cursor: pointer'.
+     * http://phonegap-tips.com/articles/essential-phonegap-css-webkit-tap-highlight-color.html */
+    -webkit-tap-highlight-color: black;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .cta:hover {
+    text-decoration: none;
+  }
+
+  .cta-primary {
+    -webkit-border-radius: var(--wds2-radius-l);
+    border-radius: var(--wds2-radius-l);
+    border: none;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color var(--wds2-motion-hover-on-transitionDuration)
+        var(--wds2-motion-hover-on-bezierCurve),
+      box-shadow var(--wds2-motion-hover-on-transitionDuration)
+        var(--wds2-motion-hover-on-bezierCurve),
+      color var(--wds2-motion-hover-on-transitionDuration)
+        var(--wds2-motion-hover-on-bezierCurve);
+  }
+
+  .cta-primary.light {
+    background-color: var(--wds2-colour-nissanblack);
+    color: var(--wds2-colour-nissanwhite);
+  }
+
+  .cta-primary.light:disabled {
+    background-color: var(--wds2-colour-action-disabled-onlight);
+    color: var(--wds2-colour-nissangrey);
+  }
+
+  /* .cta-primary.light:enabled:not(:active):hover {
+    background-color: var(--wds2-colour-action-hover-onlight);
+  } */
+
+  .cta-primary.light:hover {
+    background-color: var(--wds2-colour-action-hover-onlight);
+  }
+
+  .cta-primary.light:focus {
+    box-shadow: 0 0 0 var(--wds2-stroke-l)
+      var(--wds2-colour-action-focus-onlight);
+
+    /* 'box-shadow' is reverted in forced color modes (Windows high-contrast mode),
+     * while a transparent 'outline' is overridden appropriately. */
+    outline: 2px solid transparent;
+  }
+
+  /* Reapply focus indicators for keyboard users only. */
+  .cta-primary.light:focus-visible {
+    box-shadow: 0 0 0 var(--wds2-stroke-l)
+      var(--wds2-colour-action-focus-onlight);
+    outline: 2px solid transparent;
+  }
+
+   /* Remove focus style if browser supports :focus-visible. */
+   .cta-primary.light:focus:not(:focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+
+  .cta-primary.dark {
+    background-color: var(--wds2-colour-nissanwhite);
+    color: var(--wds2-colour-nissanblack);
+  }
+
+  .cta-primary.dark:disabled {
+    background-color: var(--wds2-colour-action-disabled-ondark);
+    color: var(--wds2-colour-nissanblack);
+  }
+
+  /* .cta-primary.dark:enabled:not(:active):hover {
+    background-color: var(--wds2-colour-action-hover-ondark);
+    color: var(--wds2-colour-action-disabled-ondark);
+  } */
+
+  .cta-primary.dark:hover {
+    background-color: var(--wds2-colour-action-hover-ondark);
+    color: var(--wds2-colour-action-disabled-ondark);
+  }
+
+  .cta-primary.dark:focus {
+    box-shadow: 0 0 0 var(--wds2-stroke-l)
+      var(--wds2-colour-action-focus-ondark);
+    outline: 2px solid transparent;
+  }
+
+  .cta-primary.dark:focus-visible {
+    box-shadow: 0 0 0 var(--wds2-stroke-l)
+      var(--wds2-colour-action-focus-ondark);
+    outline: 2px solid transparent;
+  }
+
+  .cta-primary.dark:focus:not(:focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .cta-secondary {
+    -webkit-border-radius: var(--wds2-radius-l);
+    background-color: transparent;
+    border-radius: var(--wds2-radius-l);
+    border: none;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color var(--wds2-motion-hover-on-transitionDuration)
+        var(--wds2-motion-hover-on-bezierCurve),
+      box-shadow var(--wds2-motion-hover-on-transitionDuration)
+        var(--wds2-motion-hover-on-bezierCurve);
+  }
+
+  .cta-secondary.light {
+    /* Animating the button's border affects DOM layout and isn't smooth, so instead fake the border with box-shadow. */
+    
+    box-shadow: 0 0 0 var(--wds2-stroke-m) var(--wds2-colour-nissanblack) inset;
+    color: var(--wds2-colour-nissanblack);
+  }
+
+  .cta-secondary.light:disabled {
+    box-shadow: 0 0 0 var(--wds2-stroke-m)
+      var(--wds2-colour-action-disabled-onlight) inset;
+    color: var(--wds2-colour-action-disabled-onlight);
+  }
+
+  .cta-secondary.light:focus {
+    box-shadow: 0 0 0 var(--wds2-stroke-m) var(--wds2-colour-nissanblack) inset,
+      0 0 0 var(--wds2-stroke-l) var(--wds2-colour-action-focus-onlight);
+
+    /* 'box-shadow' is reverted in forced color modes (Windows high-contrast mode),
+     * while a transparent 'outline' is overridden appropriately. */
+    outline: 2px solid transparent;
+  }
+
+  /* Reapply focus indicators for keyboard users only. */
+  .cta-secondary.light:focus-visible {
+    box-shadow: 0 0 0 var(--wds2-stroke-m) var(--wds2-colour-nissanblack) inset,
+      0 0 0 var(--wds2-stroke-l) var(--wds2-colour-action-focus-onlight);
+    outline: 2px solid transparent;
+  }
+
+  /* .cta-secondary.light:enabled:not(:active):hover {
+    box-shadow: 0 0 0 var(--wds2-stroke-l) var(--wds2-colour-nissanblack) inset;
+  } */
+
+  .cta-secondary.light:hover {
+    box-shadow: 0 0 0 var(--wds2-stroke-l) var(--wds2-colour-nissanblack) inset;
+  }
+
+  /* Remove focus style if browser supports :focus-visible. */
+  .cta-secondary.light:focus:not(:focus-visible) {
+    box-shadow: 0 0 0 var(--wds2-stroke-m) var(--wds2-colour-nissanblack) inset;
+    outline: none;
+  }
+
+  .cta-secondary.light:not(:active):focus:hover {
+    box-shadow: 0 0 0 var(--wds2-stroke-l) var(--wds2-colour-nissanblack) inset,
+      0 0 0 var(--wds2-stroke-l) var(--wds2-colour-action-focus-onlight);
+  }
+
+  .cta-secondary.light:not(:active):focus-visible:hover {
+    box-shadow: 0 0 0 var(--wds2-stroke-l) var(--wds2-colour-nissanblack) inset,
+      0 0 0 var(--wds2-stroke-l) var(--wds2-colour-action-focus-onlight);
+  }
+
+  .cta-secondary.light:not(:active):focus:not(:focus-visible):hover {
+    box-shadow: 0 0 0 var(--wds2-stroke-l) var(--wds2-colour-nissanblack) inset;
+  }
+
+  .cta-secondary.dark {
+    box-shadow: 0 0 0 var(--wds2-stroke-m) var(--wds2-colour-nissanwhite) inset;
+    color: var(--wds2-colour-nissanwhite);
+  }
+
+  .cta-secondary.dark:disabled {
+    box-shadow: 0 0 0 var(--wds2-stroke-m)
+      var(--wds2-colour-action-disabled-ondark) inset;
+    color: var(--wds2-colour-action-disabled-ondark);
+  }
+
+  .cta-secondary.dark:focus {
+    box-shadow: 0 0 0 var(--wds2-stroke-m) var(--wds2-colour-nissanwhite) inset,
+      0 0 0 var(--wds2-stroke-l) var(--wds2-colour-action-focus-ondark);
+    outline: 2px solid transparent;
+  }
+
+  .cta-secondary.dark:hover {
+    box-shadow: 0 0 0 var(--wds2-stroke-l) var(--wds2-colour-nissanwhite) inset;
+  }
+
+  .cta-secondary.dark:focus-visible {
+    box-shadow: 0 0 0 var(--wds2-stroke-m) var(--wds2-colour-nissanwhite) inset,
+      0 0 0 var(--wds2-stroke-l) var(--wds2-colour-action-focus-ondark);
+    outline: 2px solid transparent;
+  }
+
+  .cta-secondary.dark:focus:not(:focus-visible) {
+    box-shadow: 0 0 0 var(--wds2-stroke-m) var(--wds2-colour-nissanwhite) inset;
+    outline: none;
+  }
+
+  /* .cta-secondary.dark:enabled:not(:active):hover {
+    box-shadow: 0 0 0 var(--wds2-stroke-l) var(--wds2-colour-nissanwhite) inset;
+  } */
+
+  .cta-secondary.dark:not(:active):focus:hover {
+    box-shadow: 0 0 0 var(--wds2-stroke-l) var(--wds2-colour-nissanwhite) inset,
+      0 0 0 var(--wds2-stroke-l) var(--wds2-colour-action-focus-ondark);
+  }
+
+  .cta-secondary.dark:not(:active):focus-visible:hover {
+    box-shadow: 0 0 0 var(--wds2-stroke-l) var(--wds2-colour-nissanwhite) inset,
+      0 0 0 var(--wds2-stroke-l) var(--wds2-colour-action-focus-ondark);
+  }
+
+  .cta-secondary.dark:not(:active):focus:not(:focus-visible):hover {
+    box-shadow: 0 0 0 var(--wds2-stroke-l) var(--wds2-colour-nissanwhite) inset;
+  }
+
+  .cta-tertiary {
+    -webkit-border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    padding: 11px 0 13px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: box-shadow var(--wds2-motion-hover-on-transitionDuration)
+        var(--wds2-motion-hover-on-bezierCurve),
+      color var(--wds2-motion-hover-on-transitionDuration)
+        var(--wds2-motion-hover-on-bezierCurve);
+  }
+
+  .cta-tertiary::after {
+    bottom: 3px;
+    content: "";
+    height: var(--wds2-stroke-m);
+    left: 0;
+    position: absolute;
+    transition: background-color var(--wds2-motion-hover-on-transitionDuration)
+      var(--wds2-motion-hover-on-bezierCurve);
+    width: 100%;
+  }
+
+  /* .cta-tertiary:enabled:not(:active):hover:after {
+    background-color: transparent;
+  } */
+
+  .cta-tertiary.light {
+    color: var(--wds2-colour-nissanblack);
+  }
+
+  .cta-tertiary.light::after {
+    background-color: var(--wds2-colour-nissanblack);
+  }
+
+  .cta-tertiary:hover::after {
+    background-color: transparent;
+  }
+
+  .cta-tertiary.light:disabled {
+    color: var(--wds2-colour-action-disabled-onlight);
+  }
+
+  .cta-tertiary.light:disabled::after {
+    background-color: var(--wds2-colour-action-disabled-onlight);
+  }
+
+  .cta-tertiary.light:focus {
+    box-shadow: 0 0 0 var(--wds2-stroke-l)
+      var(--wds2-colour-action-focus-onlight);
+
+    /* 'box-shadow' is reverted in forced color modes (Windows high-contrast mode),
+     * while a transparent 'outline' is overridden appropriately. */
+    outline: 2px solid transparent;
+  }
+
+  /* Reapply focus indicators for keyboard users only. */
+  .cta-tertiary.light:focus-visible {
+    box-shadow: 0 0 0 var(--wds2-stroke-l)
+      var(--wds2-colour-action-focus-onlight);
+    outline: 2px solid transparent;
+  }
+
+  /* Remove focus style if browser supports :focus-visible. */
+  .cta-tertiary.light:focus:not(:focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+
+  .cta-tertiary.dark::after {
+    background-color: var(--wds2-colour-nissanwhite);
+  }
+
+  .cta-tertiary.dark {
+    color: var(--wds2-colour-nissanwhite);
+  }
+
+  .cta-tertiary.dark:disabled {
+    color: var(--wds2-colour-action-disabled-ondark);
+  }
+
+  .cta-tertiary.dark:disabled::after {
+    background-color: var(--wds2-colour-action-disabled-ondark) !important;
+  }
+
+  .cta-tertiary.dark:focus {
+    box-shadow: 0 0 0 var(--wds2-stroke-l)
+      var(--wds2-colour-action-focus-ondark);
+    outline: 2px solid transparent;
+  }
+
+  .cta-tertiary.dark:focus-visible {
+    box-shadow: 0 0 0 var(--wds2-stroke-l)
+      var(--wds2-colour-action-focus-ondark);
+    outline: 2px solid transparent;
+  }
+
+  .cta-tertiary.dark:focus:not(:focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+
+  .cta-tertiary[dir='rtl'] {
+    text-align: right;
+  }
+
+  .cta-tertiary[dir='rtl']::after {
+    left: auto;
+    right: 0;
+  }

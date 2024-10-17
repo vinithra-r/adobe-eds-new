@@ -16,7 +16,7 @@
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _wds_button__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wds/button */ \"./node_modules/@wds/button/dist/index.esm.js\");\n/* harmony import */ var _wds_accordion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wds/accordion */ \"./node_modules/@wds/accordion/dist/index.esm.js\");\n/* harmony import */ var _wds_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wds/footer */ \"./node_modules/@wds/footer/dist/index.esm.js\");\n/* harmony import */ var _wds_action_strip__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @wds/action-strip */ \"./node_modules/@wds/action-strip/dist/index.esm.js\");\n\n\n\n\n\n//# sourceURL=webpack://@adobe/aem-boilerplate/./scripts/wds.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _wds_button__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wds/button */ \"./node_modules/@wds/button/dist/index.esm.js\");\n/* harmony import */ var _wds_accordion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wds/accordion */ \"./node_modules/@wds/accordion/dist/index.esm.js\");\n/* harmony import */ var _wds_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wds/footer */ \"./node_modules/@wds/footer/dist/index.esm.js\");\n/* harmony import */ var _wds_action_strip__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @wds/action-strip */ \"./node_modules/@wds/action-strip/dist/index.esm.js\");\n\n\n\n\n// import {LitElement, ReactiveElement} from 'lit';\n\n\n//# sourceURL=webpack://@adobe/aem-boilerplate/./scripts/wds.js?");
 
 /***/ }),
 
