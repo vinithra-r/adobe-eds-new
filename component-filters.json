@@ -48,11 +48,5 @@
       "button",
       "title"
     ]
-  },
-  {
-    "id": "section1",
-    "components": [
-      "hero-model"
-    ]
   }
 ]
