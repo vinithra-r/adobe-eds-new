@@ -6,6 +6,12 @@
     ]
   },
   {
+    "id": "tab",
+    "components": [
+      "wds-button"
+    ]
+  },
+  {
     "id": "section",
     "components": [
       "text",
