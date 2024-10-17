@@ -89,7 +89,13 @@
               }
             }
           }
-        },
+        }
+      ]
+    },
+    {
+      "title": "Blocks",
+      "id": "blocks",
+      "components": [
         {
           "title": "Hero Model",
           "id": "hero-model",
@@ -104,13 +110,7 @@
               }
             }
           }
-        }
-      ]
-    },
-    {
-      "title": "Blocks",
-      "id": "blocks",
-      "components": [
+        },
         {
           "title": "Accordion",
           "id": "accordion",
