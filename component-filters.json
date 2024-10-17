@@ -24,12 +24,6 @@
     ]
   },
   {
-    "id": "section1",
-    "components": [
-      "card"
-    ]
-  },
-  {
     "id": "cards",
     "components": [
       "card"
