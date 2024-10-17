@@ -70,7 +70,7 @@
               "page": {
                 "resourceType": "core/franklin/components/section/v1/section",
                 "template": {
-                  "name": "section-global",
+                  "name": "Section Global",
                   "model": "section-global",
                   "filter": "section-global"
                 }
