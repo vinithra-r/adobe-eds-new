@@ -97,21 +97,6 @@
       "id": "blocks",
       "components": [
         {
-          "title": "Hero Model",
-          "id": "hero-model",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "Hero Model",
-                  "model": "hero-model"
-                }
-              }
-            }
-          }
-        },
-        {
           "title": "Accordion",
           "id": "accordion",
           "plugins": {
@@ -151,6 +136,21 @@
                 "template": {
                   "name": "Cards",
                   "filter": "cards"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Hero Model",
+          "id": "hero-model",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Hero Model",
+                  "model": "hero-model"
                 }
               }
             }
