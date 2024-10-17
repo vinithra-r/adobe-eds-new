@@ -3,11 +3,11 @@
     "id": "main",
     "components": [
       "section",
-      "section1"
+      "tab"
     ]
   },
   {
-    "id": "section1",
+    "id": "tab",
     "components": [
       "wds-button"
     ]
@@ -15,6 +15,7 @@
   {
     "id": "section",
     "components": [
+      "text"
     ]
   },
   {
