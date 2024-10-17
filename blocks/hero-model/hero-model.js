@@ -24,7 +24,7 @@ export default function decorate(block) {
           <div class="headline wds2-type-display-m">${headline ? headline.innerHTML.replace(/<\/?p>/g, '') : ''}</div>
           <div class="subheadline wds2-type-body-light-m">${subheadline ? subheadline.innerHTML.replace(/<\/?p>/g, '') : ''}</div>
           <div class="cta-wrapper wds2-type-action-button-m">
-              <a class="cta cta-${(ctaType ? ctaType.innerHTML.replace(/<\/?p>/g, '') : 'primary').toLowerCase()} light small" href="${ctaUrl.innerHTML.replace(/<\/?p>/g, '')}">${cta.innerHTML.replace(/<\/?p>/g, '')}</a>
+              <a class="cta cta-${(ctaType ? ctaType.textContent : 'primary').toLowerCase()} light small" href="${ctaUrl.innerHTML.replace(/<\/?p>/g, '')}">${cta.innerHTML.replace(/<\/?p>/g, '')}</a>
           </div>
           <div class="features row wds2-type-body-regular-m">
             <div class="feature-item">
