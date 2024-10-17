@@ -3,11 +3,11 @@
     "id": "main",
     "components": [
       "section",
-      "tab"
+      "section-global"
     ]
   },
   {
-    "id": "tab",
+    "id": "section-global",
     "components": [
       "wds-button"
     ]

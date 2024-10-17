@@ -96,7 +96,7 @@
     ]
   },
   {
-    "id": "tab",
+    "id": "section-global",
     "fields": [
       {
         "component": "multiselect",

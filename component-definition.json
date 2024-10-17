@@ -63,16 +63,16 @@
       "id": "sections",
       "components": [
         {
-          "title": "Tab",
-          "id": "tab",
+          "title": "Section Global",
+          "id": "section-global",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/section/v1/section",
                 "template": {
-                  "name": "Tab",
-                  "model": "tab",
-                  "filter": "tab"
+                  "name": "section-global",
+                  "model": "section-global",
+                  "filter": "section-global"
                 }
               }
             }
