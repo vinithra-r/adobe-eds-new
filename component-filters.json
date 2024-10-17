@@ -6,7 +6,7 @@
     ]
   },
   {
-    "id": "tab",
+    "id": "section1",
     "components": [
       "wds-button"
     ]

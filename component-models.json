@@ -96,7 +96,7 @@
     ]
   },
   {
-    "id": "tab",
+    "id": "section1",
     "fields": [
       {
         "component": "multiselect",
