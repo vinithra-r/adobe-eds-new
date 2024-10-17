@@ -5,6 +5,18 @@
       "id": "default",
       "components": [
         {
+          "title": "Text",
+          "id": "text",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/text/v1/text",
+                "template": {}
+              }
+            }
+          }
+        },
+        {
           "title": "Title",
           "id": "title",
           "plugins": {
@@ -77,6 +89,21 @@
               }
             }
           }
+        },
+        {
+          "title": "Card",
+          "id": "card",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Card",
+                  "model": "card"
+                }
+              }
+            }
+          }
         }
       ]
     },
@@ -139,21 +166,6 @@
                 "template": {
                   "name": "Card",
                   "model": "card"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Card1",
-          "id": "card1",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "Card1",
-                  "model": "card1"
                 }
               }
             }
