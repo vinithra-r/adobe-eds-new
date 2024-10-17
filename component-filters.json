@@ -24,7 +24,7 @@
   {
     "id": "section1",
     "components": [
-      "hero-model"
+      "button"
     ]
   },
   {
