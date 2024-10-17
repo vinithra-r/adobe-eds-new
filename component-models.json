@@ -112,22 +112,6 @@
     ]
   },
   {
-    "id": "section1",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "style",
-        "label": "Style",
-        "options": [
-          {
-            "name": "Highlight",
-            "value": "highlight"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "accordion",
     "fields": [
       {
