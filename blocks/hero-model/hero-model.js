@@ -6,7 +6,7 @@ export default function decorate(block) {
   loadCSS('styles/cta.css');
   const [headline, subheadline, cta, ctaUrl, ctaType, power, miles, seats] = block.querySelectorAll('p');
   const [pictureContainer] = block.querySelectorAll('picture');
-  const img = pictureContainer.querySelector('img');
+  const img = pictureContainer?.querySelector('img');
   if (img) {
     img.removeAttribute('height');
     img.removeAttribute('width');
