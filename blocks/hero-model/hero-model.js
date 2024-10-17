@@ -21,10 +21,10 @@ export default function decorate(block) {
     </div>
     <div class="row padding-s padding-m padding-l padding-xl">
       <div class="hero-overlay col-sm-2 col-md-12 col-l-12 col-xl-12">
-          <div class="headline wds2-type-display-m">${headline ? headline.innerHTML.replace(/<\/?p>/g, '') : ''}</div>
-          <div class="subheadline wds2-type-body-light-m">${subheadline ? subheadline.innerHTML.replace(/<\/?p>/g, '') : ''}</div>
+          <div class="headline wds2-type-display-m">${headline ? headline.textContent : ''}</div>
+          <div class="subheadline wds2-type-body-light-m">${subheadline ? subheadline.textContent : ''}</div>
           <div class="cta-wrapper wds2-type-action-button-m">
-              <a class="cta cta-${(ctaType ? ctaType.textContent : 'primary').toLowerCase()} light small" href="${ctaUrl.innerHTML.replace(/<\/?p>/g, '')}">${cta.innerHTML.replace(/<\/?p>/g, '')}</a>
+              <a class="cta cta-${(ctaType ? ctaType.textContent : 'primary').toLowerCase()} light small" href="${ctaUrlheadline.textContent}">${ctaheadline.textContent}</a>
           </div>
           <div class="features row wds2-type-body-regular-m">
             <div class="feature-item">
@@ -32,15 +32,15 @@ export default function decorate(block) {
               <span class="wds2-type-disclaimer-light">Starting Price</span>
             </div>
             <div class="feature-item">
-              <span>${power ? power.innerHTML.replace(/<\/?p>/g, '') : ''}</span>
+              <span>${power ? powerheadline.textContent : ''}</span>
               <span class="wds2-type-disclaimer-light">Horsepower</span>
             </div>
             <div class="feature-item">
-              <span>${miles ? miles.innerHTML.replace(/<\/?p>/g, '') : ''}</span>
+              <span>${miles ? milesheadline.textContent : ''}</span>
               <span class="wds2-type-disclaimer-light">Miles per gallon</span>
             </div>
             <div class="feature-item">
-              <span>${seats ? seats.innerHTML.replace(/<\/?p>/g, '') : ''}</span>
+              <span>${seats ? seatsheadline.textContent : ''}</span>
               <span class="wds2-type-disclaimer-light">Seats</span>
             </div>
         </div>
