@@ -24,7 +24,7 @@ export default function decorate(block) {
           <div class="headline wds2-type-display-m">${headline ? headline.textContent : ''}</div>
           <div class="subheadline wds2-type-body-light-m">${subheadline ? subheadline.textContent : ''}</div>
           <div class="cta-wrapper wds2-type-action-button-m">
-              <a class="cta cta-${(ctaType ? ctaType.textContent : 'primary').toLowerCase()} light small" href="${ctaUrlheadline.textContent}">${ctaheadline.textContent}</a>
+              <a class="cta cta-${(ctaType ? ctaType.textContent : 'primary').toLowerCase()} light small" href="${ctaUrl.textContent}">${cta.textContent}</a>
           </div>
           <div class="features row wds2-type-body-regular-m">
             <div class="feature-item">
@@ -32,15 +32,15 @@ export default function decorate(block) {
               <span class="wds2-type-disclaimer-light">Starting Price</span>
             </div>
             <div class="feature-item">
-              <span>${power ? powerheadline.textContent : ''}</span>
+              <span>${power ? power.textContent : ''}</span>
               <span class="wds2-type-disclaimer-light">Horsepower</span>
             </div>
             <div class="feature-item">
-              <span>${miles ? milesheadline.textContent : ''}</span>
+              <span>${miles ? miles.textContent : ''}</span>
               <span class="wds2-type-disclaimer-light">Miles per gallon</span>
             </div>
             <div class="feature-item">
-              <span>${seats ? seatsheadline.textContent : ''}</span>
+              <span>${seats ? seats.textContent : ''}</span>
               <span class="wds2-type-disclaimer-light">Seats</span>
             </div>
         </div>
