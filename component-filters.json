@@ -10,6 +10,7 @@
     "id": "section",
     "components": [
       "text",
+      "image",
       "button",
       "title",
       "hero",
@@ -18,13 +19,14 @@
       "fragment",
       "accordion",
       "actionstrip",
-      "wds-button"
+      "wds-button",
+      "hero-model"
     ]
   },
   {
     "id": "section1",
     "components": [
-      "button"
+      "card"
     ]
   },
   {
