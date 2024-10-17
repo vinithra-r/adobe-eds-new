@@ -4,7 +4,8 @@ export default function decorate(block) {
   // eslint-disable-next-line no-console
   console.log(block);
   loadCSS('styles/cta.css');
-  const [headline, subheadline, cta, ctaUrl, ctaType, power, miles, seats] = [...block.children].map(row => row.firstElementChild.textContent);
+  const elements = [...block.children].map((row) => row.firstElementChild.textContent);
+  const [headline, subheadline, cta, ctaUrl, ctaType, power, miles, seats] = elements;
   const [pictureContainer] = block.querySelectorAll('picture');
   const img = pictureContainer?.querySelector('img');
   if (img) {
