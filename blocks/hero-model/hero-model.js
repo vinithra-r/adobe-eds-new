@@ -4,8 +4,7 @@ export default function decorate(block) {
   // eslint-disable-next-line no-console
   console.log(block);
   loadCSS('styles/cta.css');
-
-  const [headline, subheadline, cta, ctaUrl, ctaType, power, miles, seats] = block.querySelectorAll('.hero-model div > div');
+  const [headline, subheadline, cta, ctaUrl, ctaType, power, miles, seats] = [...block.children].map(row => row.firstElementChild.textContent);
   const [pictureContainer] = block.querySelectorAll('picture');
   const img = pictureContainer?.querySelector('img');
   if (img) {
@@ -21,10 +20,10 @@ export default function decorate(block) {
     </div>
     <div class="row padding-s padding-m padding-l padding-xl">
       <div class="hero-overlay col-sm-2 col-md-12 col-l-12 col-xl-12">
-          <div class="headline wds2-type-display-m">${headline ? headline.textContent : ''}</div>
-          <div class="subheadline wds2-type-body-light-m">${subheadline ? subheadline.textContent : ''}</div>
+          <div class="headline wds2-type-display-m">${headline}</div>
+          <div class="subheadline wds2-type-body-light-m">${subheadline}</div>
           <div class="cta-wrapper wds2-type-action-button-m">
-              <a class="cta cta-${(ctaType ? ctaType.textContent : 'primary').toLowerCase()} light small" href="${ctaUrl.textContent}">${cta.textContent}</a>
+              <a class="cta cta-${ctaType} light small" href="${ctaUrl}">${cta}</a>
           </div>
           <div class="features row wds2-type-body-regular-m">
             <div class="feature-item">
@@ -32,21 +31,20 @@ export default function decorate(block) {
               <span class="wds2-type-disclaimer-light">Starting Price</span>
             </div>
             <div class="feature-item">
-              <span>${power ? power.textContent : ''}</span>
+              <span>${power}</span>
               <span class="wds2-type-disclaimer-light">Horsepower</span>
             </div>
             <div class="feature-item">
-              <span>${miles ? miles.textContent : ''}</span>
+              <span>${miles}</span>
               <span class="wds2-type-disclaimer-light">Miles per gallon</span>
             </div>
             <div class="feature-item">
-              <span>${seats ? seats.textContent : ''}</span>
+              <span>${seats}</span>
               <span class="wds2-type-disclaimer-light">Seats</span>
             </div>
         </div>
       </div>
     </div>`;
-    
-  // block.innerHTML = '';
+  block.innerHTML = '';
   block.appendChild(container);
 }
