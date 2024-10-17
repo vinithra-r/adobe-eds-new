@@ -19,7 +19,12 @@
       "fragment",
       "accordion",
       "actionstrip",
-      "wds-button",
+      "wds-button"
+    ]
+  },
+  {
+    "id": "section1",
+    "components": [
       "hero-model"
     ]
   },
