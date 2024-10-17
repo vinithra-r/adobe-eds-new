@@ -2,8 +2,7 @@
   {
     "id": "main",
     "components": [
-      "section",
-      "section1"
+      "section"
     ]
   },
   {
@@ -20,12 +19,6 @@
       "accordion",
       "actionstrip",
       "wds-button",
-      "hero-model"
-    ]
-  },
-  {
-    "id": "section1",
-    "components": [
       "hero-model"
     ]
   },
