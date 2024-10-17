@@ -75,13 +75,7 @@
               }
             }
           }
-        }
-      ]
-    },
-    {
-      "title": "Sections1",
-      "id": "sections1",
-      "components": [
+        },
         {
           "title": "Section1",
           "id": "section1",
