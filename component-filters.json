@@ -2,8 +2,7 @@
   {
     "id": "main",
     "components": [
-      "section",
-      "section1"
+      "section"
     ]
   },
   {
@@ -19,20 +18,14 @@
       "fragment",
       "accordion",
       "actionstrip",
-      "wds-button"
-    ]
-  },
-  {
-    "id": "section1",
-    "components": [
+      "wds-button",
       "hero-model"
     ]
   },
   {
     "id": "cards",
     "components": [
-      "card",
-      "hero-model"
+      "card"
     ]
   },
   {

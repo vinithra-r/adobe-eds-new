@@ -241,23 +241,46 @@ main > .section {
 main > .section > div {
   max-width: 1500px;
   margin: auto;
-  padding: 0 24px;
+  padding: 0 20px;
   box-sizing: border-box;
 }
 
-main > .section:first-of-type {
+/* main > .section:first-of-type {
   margin-top: 0;
-}
+} */
 
-@media (width >= 900px) {
+/* @media (width >= 900px) {
   main > .section > div {
     padding: 0 80px;
   }
-}
+} */
 
 /* section metadata */
-main .section.light,
+
+/* main .section.light,
 main .section.highlight {
   margin: 0;
   padding: 40px 0;
+} */
+
+.padding-s {
+    padding: var(--wds2-grid-s-padding);
+}
+
+@media screen and (768px <= width <= 1023px) {
+    .padding-m {
+        padding: var(--wds2-grid-xl-padding);
+    }
+}
+
+@media screen and (1024px <= width <= 1499px) {
+    .padding-l {
+        padding: var(--wds2-grid-xl-padding);
+    }
+}
+
+@media screen and (1500px <= width ) {
+    .padding-xl {
+        padding: var(--wds2-grid-xl-padding);
+    }
 }
