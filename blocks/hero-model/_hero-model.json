@@ -2,14 +2,14 @@
   "definitions": [
     {
       "title": "Hero Model",
-      "id": "heroModel",
+      "id": "hero-model",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block",
             "template": {
-              "name": "HeroModel",
-              "model": "heroModel"
+              "name": "hero-model",
+              "model": "hero-model"
             }
           }
         }
@@ -18,7 +18,7 @@
   ],
   "models": [
     {
-      "id": "heroModel",
+      "id": "hero-model",
       "fields": [
         {
           "component": "tab",
