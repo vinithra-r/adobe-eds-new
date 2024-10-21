@@ -326,7 +326,7 @@
     ]
   },
   {
-    "id": "accordion",
+    "id": "actionstrip",
     "fields": [
       {
         "component": "text",
@@ -336,11 +336,38 @@
         "value": ""
       },
       {
-        "component": "richtext",
-        "name": "content",
-        "value": "",
-        "label": "Content",
-        "valueType": "string"
+        "component": "text",
+        "valueType": "string",
+        "name": "primary_btn_label",
+        "label": "Primary Button label",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "secondary_button_label",
+        "label": "Secondary Button label",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "label": "Theme",
+        "name": "theme",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Light",
+            "value": "light"
+          },
+          {
+            "name": "Dark",
+            "value": "dark"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          }
+        ]
       }
     ]
   }
