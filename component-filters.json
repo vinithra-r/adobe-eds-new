@@ -44,16 +44,12 @@
   {
     "id": "section",
     "components": [
-      "text",
-      "image",
       "button",
       "title",
       "cards",
       "columns",
       "fragment",
-      "accordion",
-      "wds-button",
-      "hero-model"
+      "accordion"
     ]
   }
 ]
