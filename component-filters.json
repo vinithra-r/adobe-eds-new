@@ -39,5 +39,20 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "section",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title",
+      "cards",
+      "columns",
+      "fragment",
+      "wds-button",
+      "hero-model",
+      "accordion"
+    ]
   }
 ]
