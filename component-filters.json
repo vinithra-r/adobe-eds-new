@@ -41,7 +41,7 @@
     ]
   },
   {
-    "id": "block1",
+    "id": "section",
     "components": [
       "accordion"
     ]
