@@ -1,8 +1,8 @@
 {
   "groups": [
     {
-      "title": "Blocks",
-      "id": "blocks",
+      "title": "Global Blocks",
+      "id": "blocks1",
       "components": [
         {
           "title": "Accordion",
