@@ -63,22 +63,6 @@
       "id": "sections",
       "components": [
         {
-          "title": "Section Global",
-          "id": "section-global",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/section/v1/section",
-                "template": {
-                  "name": "Section Global",
-                  "model": "section-global",
-                  "filter": "section-global"
-                }
-              }
-            }
-          }
-        },
-        {
           "title": "Section",
           "id": "section",
           "plugins": {

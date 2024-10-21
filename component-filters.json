@@ -2,14 +2,7 @@
   {
     "id": "main",
     "components": [
-      "section",
-      "section-global"
-    ]
-  },
-  {
-    "id": "section-global",
-    "components": [
-      "hero"
+      "section"
     ]
   },
   {
