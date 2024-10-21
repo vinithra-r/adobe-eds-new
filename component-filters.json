@@ -41,5 +41,16 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "section",
+    "components": [
+      "button",
+      "title",
+      "cards",
+      "columns",
+      "fragment",
+      "actionstrip"
+    ]
   }
 ]
