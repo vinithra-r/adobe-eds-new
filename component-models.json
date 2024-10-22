@@ -112,6 +112,71 @@
     ]
   },
   {
+    "id": "accordion",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "heading",
+        "label": "Heading",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "content",
+        "value": "",
+        "label": "Content",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "actionstrip",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "heading",
+        "label": "Heading",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "primary_btn_label",
+        "label": "Primary Button label",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "secondary_button_label",
+        "label": "Secondary Button label",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "label": "Theme",
+        "name": "theme",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Light",
+            "value": "light"
+          },
+          {
+            "name": "Dark",
+            "value": "dark"
+          },
+          {
+            "name": "Grey",
+            "value": "grey"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
@@ -173,7 +238,8 @@
         "name": "title",
         "label": "Title",
         "value": "",
-        "required": true
+        "required": true,
+        "multiple": true
       },
       {
         "component": "richtext",
@@ -322,25 +388,6 @@
             "value": "secondary"
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "accordion",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "heading",
-        "label": "Heading",
-        "value": ""
-      },
-      {
-        "component": "richtext",
-        "name": "content",
-        "value": "",
-        "label": "Content",
-        "valueType": "string"
       }
     ]
   }

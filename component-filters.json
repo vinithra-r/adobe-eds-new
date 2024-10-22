@@ -16,7 +16,9 @@
       "columns",
       "fragment",
       "wds-button",
-      "hero-model"
+      "hero-model",
+      "accordion",
+      "accordionstrip"
     ]
   },
   {
@@ -38,22 +40,6 @@
       "image",
       "button",
       "title"
-    ]
-  },
-  {
-    "id": "section",
-    "components": [
-      "text",
-      "image",
-      "button",
-      "title",
-      "cards",
-      "columns",
-      "fragment",
-      "wds-button",
-      "hero-model",
-      "hero",
-      "accordion"
     ]
   }
 ]
