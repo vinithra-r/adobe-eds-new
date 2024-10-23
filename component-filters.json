@@ -19,8 +19,7 @@
       "accordion",
       "actionstrip",
       "wds-button",
-      "hero-model",
-      "heroIntro"
+      "hero-model"
     ]
   },
   {
@@ -42,12 +41,6 @@
       "image",
       "button",
       "title"
-    ]
-  },
-  {
-    "id": "heroIntro",
-    "components": [
-      "commonImage"
     ]
   }
 ]
