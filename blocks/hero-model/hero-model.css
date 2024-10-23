@@ -1,9 +1,27 @@
 main > .section > div.hero-model-wrapper {
     padding: 0;
+    color: var(--Nissan-Brand-wds2-colour-nissanblack, #000);
+    max-width: 100%;
+}
+
+.hero-model .full-bleed {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.hero-model .bleed {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.hero-model .container {
+    padding: var(--wds2-grid-xl-padding) var(--wds2-grid-s-padding);
 }
 
 .hero-image picture img {
     max-width: 100%;
+    
+    /* height: 400px; */
     object-fit: contain;
     vertical-align: middle;
 }
@@ -18,10 +36,6 @@ main > .section > div.hero-model-wrapper {
     background: var(--Nissan-Brand-wds2-colour-nissanwhite, #FFF);
 }
 
-.hero-overlay .headline {
-    color: var(--Nissan-Brand-wds2-colour-nissanblack, #000);
-}
-
 .hero-overlay .subheadline {
     order: 2;
 }
@@ -33,7 +47,7 @@ main > .section > div.hero-model-wrapper {
     width: 100%;
 }
 
-.hero-overlay .features {
+.hero-features {
     gap: 20px;
     width: 100%;
     order: 1;
@@ -46,20 +60,66 @@ main > .section > div.hero-model-wrapper {
     flex: 1 0 0;
 }
 
+.hero-overlay-m .hero-features {
+    display: none;
+}
+
 @media screen and (768px <= width <= 1023px) {
-    .hero-overlay {
-        /* padding: 60px 40px; */
+    .hero-overlay-s .hero-features{
+        display: none;
+    }
+
+    .hero-overlay-s {
+        padding-right: 40px;
+    }
+    
+    .hero-overlay-m .hero-features{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    } 
+
+    .hero-model .container {
+        padding: 60px var(--wds2-grid-xl-padding);
     }
 }
 
 @media screen and (1024px <= width <= 1499px) {
-    main > .section > div.hero-model-wrapper {
-        padding: 0 80px;
+    .hero-overlay-s .hero-features{
+        display: none;
+    }
+
+    .hero-overlay-s {
+        padding-right: 40px;
+    }
+
+    .hero-overlay-m .hero-features{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    } 
+
+    .hero-model .container {
+        padding: var(--wds2-grid-l-margin);
     }
 }
 
-@media screen and (1500px <= width ) {
-    main > .section > div.hero-model-wrapper {
-        padding: 0 90px; /* Optional: Can be merged with the previous query */
+@media screen and (1500px <= width) {
+    .hero-overlay-s .hero-features{
+        display: none;
+    }
+
+    .hero-overlay-s {
+        padding-right: 40px;
+    }
+
+    .hero-overlay-m .hero-features{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    } 
+
+    .hero-model .container {
+        padding: var(--wds2-grid-l-margin);
     }
 }

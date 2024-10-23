@@ -1,7 +1,26 @@
-import { loadCSS } from '../../scripts/aem.js';
+async function fetchDynamicPrice(url) {
+  // const response = await fetch(url, { mode: 'no-cors' });
+  // // eslint-disable-next-line no-console
+  // console.log(response);
+  // if (!response.ok) {
+  //   throw new Error('Failed to fetch price');
+  // }
+  // const data = await response.text();
+  // return data.price; // Adjust according to the structure of your response
 
-export default function decorate(block) {
-  loadCSS('styles/cta.css');
+  fetch(url)
+    .then((response) => response.text())
+    .then((data) => {
+      // eslint-disable-next-line no-console
+      console.log(data);
+    })
+    .catch((error) => {
+      // eslint-disable-next-line no-console
+      console.error('Fetch error:', error);
+    });
+}
+
+export default async function decorate(block) {
   const elements = [...block.children].map((row) => row.firstElementChild.textContent);
   const [headline, subheadline, cta, ctaUrl, ctaType, power, miles, seats] = elements;
   const [pictureContainer] = block.querySelectorAll('picture');
@@ -10,8 +29,18 @@ export default function decorate(block) {
     img.removeAttribute('height');
     img.removeAttribute('width');
   }
+  // Fetch the dynamic price
+  let dynamicPrice;
+  try {
+    dynamicPrice = await fetchDynamicPrice('https://www.nissan.fr/content/nissan_prod/fr_FR/univ-price/individual-vehicles-price-data/individualVehiclesPriceJSON_NAVARAD23B_navara-my18.html');
+  } catch (error) {
+    // eslint-disable-next-line no-console
+    console.error(error);
+    dynamicPrice = ''; // Fallback if fetching fails
+  }
+
   const featureItem = `<div class="feature-item">
-      <span>24,222</span>
+      <span>${dynamicPrice}</span>
       <span class="wds2-type-disclaimer-light">Starting Price</span>
     </div>
     <div class="feature-item">
