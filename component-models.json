@@ -238,8 +238,7 @@
         "name": "title",
         "label": "Title",
         "value": "",
-        "required": true,
-        "multiple": true
+        "required": true
       },
       {
         "component": "richtext",
@@ -358,6 +357,86 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "heroIntro",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "specs",
+        "label": "Specs placeholder",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "name": "imageURL",
+        "label": "ImageURL",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Alt Text"
+      }
+    ]
+  },
+  {
+    "id": "commonImage",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "imageURL",
+        "label": "ImageURL",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Alt Text"
+      }
+    ]
+  },
+  {
+    "id": "commonTitle",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Title"
+      },
+      {
+        "component": "select",
+        "name": "titleType",
+        "label": "Title Type",
+        "options": [
+          {
+            "name": "h1",
+            "value": "h1"
+          },
+          {
+            "name": "h2",
+            "value": "h2"
+          },
+          {
+            "name": "h3",
+            "value": "h3"
+          },
+          {
+            "name": "h4",
+            "value": "h4"
+          },
+          {
+            "name": "h5",
+            "value": "h5"
+          },
+          {
+            "name": "h6",
+            "value": "h6"
+          }
+        ]
       }
     ]
   },

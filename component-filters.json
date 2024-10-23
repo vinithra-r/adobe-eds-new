@@ -12,13 +12,15 @@
       "image",
       "button",
       "title",
+      "hero",
       "cards",
       "columns",
       "fragment",
+      "accordion",
+      "actionstrip",
       "wds-button",
       "hero-model",
-      "accordion",
-      "accordionstrip"
+      "heroIntro"
     ]
   },
   {
@@ -40,6 +42,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "heroIntro",
+    "components": [
+      "commonImage"
     ]
   }
 ]

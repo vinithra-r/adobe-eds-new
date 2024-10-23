@@ -1,0 +1,37 @@
+{
+  "definitions": [
+    {
+      "title": "B002-Image",
+      "id": "commonImage",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/image/v1/image",
+            "template": {
+              "model": "commonImage"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "commonImage",
+      "fields": [
+        {
+          "component": "reference",
+          "name": "imageURL",
+          "label": "ImageURL",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "name": "imageAlt",
+          "label": "Alt Text"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}
