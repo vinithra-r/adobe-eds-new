@@ -263,7 +263,7 @@ main .section.highlight {
   padding: 40px 0;
 } */
 
-.padding-s {
+/* .padding-s {
     padding: var(--wds2-grid-s-padding);
 }
 
@@ -283,4 +283,4 @@ main .section.highlight {
     .padding-xl {
         padding: var(--wds2-grid-xl-padding);
     }
-}
+} */
