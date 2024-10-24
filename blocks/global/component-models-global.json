@@ -1,8 +1,0 @@
-[
-  {
-    "...": "../../models/_component-models.json"
-  },
-  {
-    "...": "./*/_*.json#/models"
-  }
-]
