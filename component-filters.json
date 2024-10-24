@@ -43,6 +43,7 @@
     "id": "heroIntro",
     "components": [
       "commonTitle",
+      "commonImage",
       "commonText"
     ]
   },
