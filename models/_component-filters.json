@@ -10,8 +10,5 @@
   },
   {
     "...": "../blocks/*/_*.json#/filters"
-  },
-  {
-    "...": "../blocks/global/*/_*.json#/filters"
   }
 ]
