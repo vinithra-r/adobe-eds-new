@@ -226,18 +226,18 @@
       ]
     },
     {
-      "title": "APAC Blocks",
-      "id": "apac-blocks",
+      "title": "EU Blocks",
+      "id": "eu-blocks",
       "components": [
         {
-          "title": "B001-ApacTitle",
-          "id": "ApacTitle",
+          "title": "B001-EUTitle",
+          "id": "EuTitle",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/title/v1/title",
                 "template": {
-                  "model": "ApacTitle"
+                  "model": "EuTitle"
                 }
               }
             }
