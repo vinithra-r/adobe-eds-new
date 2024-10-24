@@ -224,6 +224,26 @@
           }
         }
       ]
+    },
+    {
+      "title": "America Blocks",
+      "id": "america-blocks",
+      "components": [
+        {
+          "title": "B001-AmericaTitle",
+          "id": "AmericasTitle",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/title/v1/title",
+                "template": {
+                  "model": "AmericasTitle"
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }
