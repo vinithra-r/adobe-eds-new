@@ -11,7 +11,6 @@
       "text",
       "image",
       "button",
-      "title",
       "hero",
       "cards",
       "columns",
@@ -36,6 +35,19 @@
       "text",
       "image",
       "button",
+      "title"
+    ]
+  },
+  {
+    "id": "section",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "hero",
+      "cards",
+      "columns",
+      "fragment",
       "title"
     ]
   }

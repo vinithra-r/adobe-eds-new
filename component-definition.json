@@ -17,20 +17,6 @@
           }
         },
         {
-          "title": "Title",
-          "id": "title",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/title/v1/title",
-                "template": {
-                  "model": "title"
-                }
-              }
-            }
-          }
-        },
-        {
           "title": "Image",
           "id": "image",
           "plugins": {
@@ -238,6 +224,11 @@
           }
         }
       ]
+    },
+    {
+      "title": "Global Blocks",
+      "id": "global-blocks",
+      "components": []
     }
   ]
 }
