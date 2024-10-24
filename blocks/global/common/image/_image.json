@@ -23,7 +23,8 @@
           "component": "reference",
           "name": "imageURL",
           "label": "ImageURL",
-          "multi": false
+          "multi": false,
+          "raw": "rawDaata"
         },
         {
           "component": "text",

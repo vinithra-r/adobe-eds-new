@@ -38,27 +38,5 @@
       "button",
       "title"
     ]
-  },
-  {
-    "id": "heroIntro",
-    "components": [
-      "commonTitle",
-      "commonImage",
-      "commonText"
-    ]
-  },
-  {
-    "id": "section",
-    "components": [
-      "text",
-      "image",
-      "button",
-      "hero",
-      "cards",
-      "columns",
-      "fragment",
-      "commonTitle",
-      "heroIntro"
-    ]
   }
 ]
