@@ -1,7 +1,7 @@
 {
   "groups": [
     {
-      "...": "../../models/_component-definition.json#/groups"
+      "...": "../global/component-definition-global.json#/groups"
     },
     {
       "title": "EU Blocks",

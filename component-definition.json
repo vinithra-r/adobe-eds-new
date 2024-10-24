@@ -204,46 +204,6 @@
           }
         }
       ]
-    },
-    {
-      "title": "Global Blocks",
-      "id": "global-blocks",
-      "components": [
-        {
-          "title": "B001-Title",
-          "id": "commonTitle",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/title/v1/title",
-                "template": {
-                  "model": "commonTitle"
-                }
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "title": "APAC Blocks",
-      "id": "apac-blocks",
-      "components": [
-        {
-          "title": "B001-ApacTitle",
-          "id": "ApacTitle",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/title/v1/title",
-                "template": {
-                  "model": "ApacTitle"
-                }
-              }
-            }
-          }
-        }
-      ]
     }
   ]
 }

@@ -32,15 +32,6 @@
           "...": "../blocks/*/_*.json#/definitions"
         }
       ]
-    },
-    {
-      "title": "Global Blocks",
-      "id": "global-blocks",
-      "components": [
-        {
-          "...": "../blocks/global/*/_*.json#/definitions"
-        }
-      ]
     }
   ]
 }

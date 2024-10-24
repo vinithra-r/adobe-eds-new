@@ -1,6 +1,6 @@
 [
   {
-    "...": "../../models/_component-filters.json"
+    "...": "../global/component-filters-global.json"
   },
   {
     "...": "./*/_*.json#/filters"
