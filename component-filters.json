@@ -14,8 +14,7 @@
       "hero",
       "cards",
       "columns",
-      "fragment",
-      "commonTitle"
+      "fragment"
     ]
   },
   {
@@ -37,6 +36,19 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "section",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "hero",
+      "cards",
+      "columns",
+      "fragment",
+      "commonTitle"
     ]
   }
 ]
