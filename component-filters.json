@@ -31,7 +31,8 @@
   {
     "id": "columns",
     "components": [
-      "column"
+      "column",
+      "hero"
     ]
   },
   {
