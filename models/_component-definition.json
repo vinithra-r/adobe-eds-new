@@ -12,6 +12,9 @@
         },
         {
           "...": "./_image.json#/definitions"
+        },
+        {
+          "...": "./_button.json#/definitions"
         }
       ]
     },
@@ -30,6 +33,15 @@
       "components": [
         {
           "...": "../blocks/*/_*.json#/definitions"
+        }
+      ]
+    },
+    {
+      "title": "Global Blocks",
+      "id": "global-blocks",
+      "components": [
+        {
+          "...": "../blocks/global/*/_*.json#/definitions"
         }
       ]
     }

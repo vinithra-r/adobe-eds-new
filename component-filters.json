@@ -15,11 +15,7 @@
       "hero",
       "cards",
       "columns",
-      "fragment",
-      "accordion",
-      "actionstrip",
-      "wds-button",
-      "hero-model"
+      "fragment"
     ]
   },
   {
@@ -31,8 +27,7 @@
   {
     "id": "columns",
     "components": [
-      "column",
-      "hero"
+      "column"
     ]
   },
   {

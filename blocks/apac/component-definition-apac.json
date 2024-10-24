@@ -1,0 +1,16 @@
+{
+  "groups": [
+    {
+      "...": "../../models/_component-definition.json#/groups"
+    },
+    {
+      "title": "APAC Blocks",
+      "id": "apac-blocks",
+      "components": [
+        {
+          "...": "./*/*/_*.json#/definitions"
+        }
+      ]
+    }
+  ]
+}

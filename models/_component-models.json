@@ -16,5 +16,8 @@
   },
   {
     "...": "../blocks/*/_*.json#/models"
+  },
+  {
+    "...": "../blocks/globals/*/_*.json#/models"
   }
 ]
