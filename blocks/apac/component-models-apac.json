@@ -3,6 +3,6 @@
     "...": "../../models/_component-models.json"
   },
   {
-    "...": "./*/*/_*.json#/models"
+    "...": "./*/_*.json#/models"
   }
 ]

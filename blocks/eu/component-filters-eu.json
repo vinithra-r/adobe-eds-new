@@ -3,7 +3,7 @@
     "...": "../../models/_component-filters.json"
   },
   {
-    "...": "./*/*/_*.json#/filters"
+    "...": "./*/_*.json#/filters"
   },
   {
     "id": "section",

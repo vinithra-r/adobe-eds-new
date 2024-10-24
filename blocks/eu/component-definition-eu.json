@@ -8,7 +8,7 @@
       "id": "eu-blocks",
       "components": [
         {
-          "...": "./*/*/_*.json#/definitions"
+          "...": "./*/_*.json#/definitions"
         }
       ]
     }

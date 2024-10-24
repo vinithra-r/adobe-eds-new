@@ -224,11 +224,6 @@
           }
         }
       ]
-    },
-    {
-      "title": "Global Blocks",
-      "id": "global-blocks",
-      "components": []
     }
   ]
 }

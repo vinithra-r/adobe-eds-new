@@ -8,7 +8,7 @@
       "id": "apac-blocks",
       "components": [
         {
-          "...": "./*/*/_*.json#/definitions"
+          "...": "./*/_*.json#/definitions"
         }
       ]
     }
